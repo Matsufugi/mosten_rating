@@ -29,7 +29,7 @@ Os dados são persistidos no banco de dados e é possível visualizar o total de
 ▶️ Como Rodar o Projeto
 Clonar o repositório
 
-git clone https://github.com/seuusuario/votacao-filmes.git
+git clone https://github.com/matsufugi/votacao-filmes.git
 Acessar a pasta
 
 cd votacao-filmes
@@ -44,6 +44,10 @@ mvn spring-boot:run
 #A API estará disponível em:
 
 http://localhost:8080
+
+📮 Testes no Postman
+
+https://www.postman.com/
 
 📌 Endpoints Principais
 
@@ -75,8 +79,6 @@ http://localhost:8080/movies/total-votos
 GET
 http://localhost:8080/movies/medias
 
-📮 Testes no Postman
-
 <h3 align="left">Language and tools</h3>
 
 <a><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="Java" width="40" height="40"/></a>
@@ -87,5 +89,6 @@ http://localhost:8080/movies/medias
 
 🖋 Autor
 Desenvolvido por Matheus Alves 🚀
+
 
 
