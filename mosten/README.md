@@ -51,23 +51,41 @@ http://localhost:8080
 POST /filmes
 
 {
-    "titulo": "O Senhor dos Anéis"
+    "titulo": "O Senhor dos Anéis",
+    "tipo": "filme"
 }
 
 2️⃣ Listar Filmes
-GET /filmes
+GET
+http://localhost:8080/movies
 
 3️⃣ Votar Positivo
-POST /filmes/{id}/votar?positivo=true
+POST 
+http://localhost:8080/movies/votar/1?positivo=true
 
 4️⃣ Votar Negativo
-POST /filmes/{id}/votar?positivo=false
+POST
+http://localhost:8080/movies/votar/1?positivo=false
 
 5️⃣ Total de Votos
-GET /filmes/total-votos
+GET
+http://localhost:8080/movies/total-votos
+
+5️⃣ Exibir total de votos mais média das notas
+GET
+http://localhost:8080/movies/medias
 
 📮 Testes no Postman
 
+<h3 align="left">Language and tools</h3>
+
+<a><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="Java" width="40" height="40"/></a>
+<a><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/spring/spring-original.svg" alt="Spring Boot" width="40" height="40"/></a>
+<a><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postman/postman-original.svg" alt="Postman" width="40" height="40"/></a>
+<a><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" alt="PostgreSQL" width="40" height="40"/></a>
+
+
 🖋 Autor
 Desenvolvido por Matheus Alves 🚀
+
 
