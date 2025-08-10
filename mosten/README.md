@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/Vem-ser-Mosten.webp" alt="Banner Mosten" width="700" />
+</p>
+
 # 🎬 Sistema de Votação de Filmes e Séries
 
 Este projeto é uma API REST desenvolvida em **Java** com **Spring Boot** e **PostgreSQL** que permite o cadastro de filmes/séries e o registro de votos positivos e negativos.  
@@ -89,6 +93,7 @@ http://localhost:8080/movies/medias
 
 🖋 Autor
 Desenvolvido por Matheus Alves 🚀
+
 
 
 
