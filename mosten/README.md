@@ -4,8 +4,7 @@
 
 # 🎬 Sistema de Votação de Filmes e Séries
 
-Este projeto é uma API REST desenvolvida em **Java** com **Spring Boot** e **PostgreSQL** que permite o cadastro de filmes/séries e o registro de votos positivos e negativos.  
-Os dados são persistidos no banco de dados e é possível visualizar o total de votos por item e no geral.
+Este projeto é uma API REST desenvolvida em **Java** com **Spring Boot** e **PostgreSQL** que permite o cadastro de filmes/séries e o registro de votos positivos e negativos. Os dados são persistidos no banco de dados e é possível visualizar o total de votos por item e no geral.
 
 ---
 
@@ -31,19 +30,24 @@ Os dados são persistidos no banco de dados e é possível visualizar o total de
 
 
 ▶️ Como Rodar o Projeto
-Clonar o repositório
 
+***Clonar o repositório***
+```
 git clone https://github.com/matsufugi/votacao-filmes.git
-Acessar a pasta
+```
+***Acessar a pasta***
 
+```
 cd votacao-filmes
-Instalar dependências
-
+```
+***Instalar dependências***
+```
 mvn install
-Rodar a aplicação
-
+```
+***Rodar a aplicação***
+```
 mvn spring-boot:run
-
+```
 
 #A API estará disponível em:
 
@@ -57,31 +61,40 @@ https://www.postman.com/
 
 1️⃣ Cadastrar Filme
 POST /filmes
-
+```
 {
     "titulo": "O Senhor dos Anéis",
     "tipo": "filme"
 }
-
+```
 2️⃣ Listar Filmes
 GET
+```
 http://localhost:8080/movies
+```
 
 3️⃣ Votar Positivo
 POST 
+```
 http://localhost:8080/movies/votar/1?positivo=true
+```
 
 4️⃣ Votar Negativo
 POST
+```
 http://localhost:8080/movies/votar/1?positivo=false
+```
 
 5️⃣ Total de Votos
 GET
+```
 http://localhost:8080/movies/total-votos
-
+```
 5️⃣ Exibir total de votos mais média das notas
 GET
+```
 http://localhost:8080/movies/medias
+```
 
 <h3 align="left">Language and tools</h3>
 
@@ -93,6 +106,7 @@ http://localhost:8080/movies/medias
 
 🖋 Autor
 Desenvolvido por Matheus Alves 🚀
+
 
 
 
