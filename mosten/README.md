@@ -105,7 +105,8 @@ http://localhost:8080/movies/medias
 
 
 🖋 Autor
-Desenvolvido por Matheus Alves 🚀
+Desenvolvido por ***Matheus Alves*** 🚀
+
 
 
 
